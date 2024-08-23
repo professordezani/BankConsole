@@ -1,6 +1,6 @@
 public class Conta {
     // atributos:
-    private decimal saldo;
+    protected decimal saldo;
 
     // construtor:
     public Conta() {}
@@ -15,7 +15,7 @@ public class Conta {
         return saldo;
     }
 
-    public void Debitar(decimal valor) {
+    public virtual void Debitar(decimal valor) {
         if(valor <= saldo)
             saldo -= valor;
     }

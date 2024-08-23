@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\henrique.dezani\\20242\\POO\\BankConsole\\BankConsole.csproj": {}
+    "C:\\Users\\henrique.dezani\\20242\\POO\\BankConsole\\BankConsole.csproj": {}
   },
   "projects": {
-    "c:\\Users\\henrique.dezani\\20242\\POO\\BankConsole\\BankConsole.csproj": {
+    "C:\\Users\\henrique.dezani\\20242\\POO\\BankConsole\\BankConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\henrique.dezani\\20242\\POO\\BankConsole\\BankConsole.csproj",
+        "projectUniqueName": "C:\\Users\\henrique.dezani\\20242\\POO\\BankConsole\\BankConsole.csproj",
         "projectName": "BankConsole",
-        "projectPath": "c:\\Users\\henrique.dezani\\20242\\POO\\BankConsole\\BankConsole.csproj",
+        "projectPath": "C:\\Users\\henrique.dezani\\20242\\POO\\BankConsole\\BankConsole.csproj",
         "packagesPath": "C:\\Users\\henrique.dezani\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\henrique.dezani\\20242\\POO\\BankConsole\\obj\\",
+        "outputPath": "C:\\Users\\henrique.dezani\\20242\\POO\\BankConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\henrique.dezani\\AppData\\Roaming\\NuGet\\NuGet.Config"
