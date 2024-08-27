@@ -1,4 +1,4 @@
-public class Conta {
+public abstract class Conta {
     // atributos:
     protected decimal saldo;
 
