@@ -1,7 +1,7 @@
 public class ContaCorrente : Conta {
 
     // atributo:
-    decimal limite;
+    private decimal limite;
 
     public ContaCorrente(decimal limite) : base() {
         this.limite = limite;
@@ -14,6 +14,10 @@ public class ContaCorrente : Conta {
     public override void Debitar(decimal valor) {
         if(valor <= saldo + limite) 
             saldo -= valor;
+    }
+
+    public decimal GetLimite() {
+        return limite;
     }
 
 }

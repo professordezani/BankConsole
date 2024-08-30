@@ -1,6 +1,7 @@
 public abstract class Conta {
     // atributos:
     protected decimal saldo;
+    private Cliente cliente;
 
     // construtor:
     public Conta() {}
@@ -22,5 +23,13 @@ public abstract class Conta {
 
     public void Creditar(decimal valor) {
         saldo += valor;
+    }
+
+    public void SetCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    public Cliente GetCliente() {
+        return this.cliente;
     }
 }
